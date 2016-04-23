@@ -1,0 +1,3 @@
+Main-Class: com.fail.Main
+Class-Path: lib/commons-lang3-3.0.1.jar lib/commons-io-2.4.jar 
+
