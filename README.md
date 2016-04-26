@@ -1,5 +1,5 @@
 # JarJar
-I think Gradle and Maven are far too slow for simple tinly projects, so this is just an example project to show how to build a project into a jar that itself depends on jars in one step.
+I think Gradle and Maven are far too slow for simple projects, so this is just an example project to show how to build a project into a jar that itself depends on jars in one step.
 
 Run:
 `chmod +x build.sh`
@@ -8,6 +8,8 @@ You can now build:
 Clean:
 `chmod +x clean.sh`
 `./clean.sh`
+
+Before building, remember to add all the jars in the lib folder to the classpath in `build.sh`.
 
 Add jar dependencies into libs folder.
 
