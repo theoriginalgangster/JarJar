@@ -1,4 +1,2 @@
-cd build/com
-rm -rf ./*
-cd ../..
+rm -rf build/
 rm service.jar
